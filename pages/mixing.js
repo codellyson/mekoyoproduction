@@ -18,36 +18,6 @@ const mixing = () => {
           </div>
         </header>
       </Hero>
-      <div className="container py-5 mt-5">
-        <h1 className="p-2">Sample of our Work</h1>
-        <hr />
-        <section className="row">
-          <div
-            className="col-xs-8 col-md-4 col-sm-4"
-            style={{
-              margin: "16px 0",
-            }}
-          >
-            <audio controls></audio>
-          </div>
-          <div
-            className="col-xs-8 col-md-4 col-sm-4"
-            style={{
-              margin: "16px 0",
-            }}
-          >
-            <audio controls></audio>
-          </div>
-          <div
-            className="col-xs-8 col-md-4 col-sm-4"
-            style={{
-              margin: "16px 0",
-            }}
-          >
-            <audio controls></audio>
-          </div>
-        </section>
-      </div>
 
       <div className="container py-5 my-5">
         <h1 className=" p-2">Mixing and Mastering Services</h1>
@@ -60,29 +30,35 @@ const mixing = () => {
           (injected humour and the like).
         </div>
 
-        <section className=" row mb-3">
-          <div className="col card bg-transparent border-primary p-3">
-            <h2 className="card-header px-0 text-lg">Instant conclusion</h2>
-            <p>
-              It to make a type specimen book. It has survived not only five
-              centuries, but also the leap into electronic typesetting,
-              remaining
-            </p>
+        <section className=" row row-cols-1 row-cols-md-3  mb-3">
+          <div className="col ">
+            <div className=" card bg-transparent border-primary p-3 mb-3">
+              <h2 className="card-header px-0 text-lg">Instant conclusion</h2>
+              <p>
+                It to make a type specimen book. It has survived not only five
+                centuries, but also the leap into electronic typesetting,
+                remaining
+              </p>
+            </div>
           </div>{" "}
-          <div className="col card bg-transparent border-primary p-3">
-            <h2 className="card-header px-0 text-lg">Choose your plan</h2>
-            <p>
-              If you are going to use a passage of Lorem Ipsum, you need to be
-              sure there isn't anything embarrassing hidden in the middle of
-              text
-            </p>
+          <div className="col">
+            <div className=" card bg-transparent border-primary p-3  mb-3">
+              <h2 className="card-header px-0 text-lg">Choose your plan</h2>
+              <p>
+                If you are going to use a passage of Lorem Ipsum, you need to be
+                sure there isn't anything embarrassing hidden in the middle of
+                text
+              </p>
+            </div>
           </div>{" "}
-          <div className="col card bg-transparent border-primary p-3">
-            <h2 className="card-header px-0 text-lg">Create an account</h2>
-            <p>
-              It has survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially
-            </p>
+          <div className="col">
+            <div className=" card bg-transparent border-primary p-3 mb-3 ">
+              <h2 className="card-header px-0 text-lg">Create an account</h2>
+              <p>
+                It has survived not only five centuries, but also the leap into
+                electronic typesetting, remaining essentially
+              </p>
+            </div>
           </div>{" "}
         </section>
 

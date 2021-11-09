@@ -63,18 +63,7 @@ const Subscribe = () => {
             id="btncheck4"
             autocomplete="off"
           />
-          <label
-            className="btn btn-outline-sharp-gold text-white rounded-0"
-            htmlFor="btncheck4"
-          >
-            Ultimate Vocal Pack
-          </label>{" "}
-          <input
-            type="checkbox"
-            className="btn-check"
-            id="btncheck5"
-            autocomplete="off"
-          />
+
           <label
             className="btn btn-outline-sharp-gold text-white rounded-0"
             htmlFor="btncheck5"

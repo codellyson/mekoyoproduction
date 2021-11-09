@@ -13,14 +13,6 @@ const about = () => {
       <Hero>
         <div className="px-4 py-5  text-center row ">
           <h1 className="display-3 fw-bold">About Me</h1>
-          <div className="row">
-            <div className="col-10 mx-auto">
-              <h4>My Mission is to impact Through Music</h4>
-              <button className="btn btn-primary btn-sm rounded-0 p-3 mt-2">
-                READ MORE
-              </button>
-            </div>
-          </div>
         </div>
       </Hero>
       <br />
