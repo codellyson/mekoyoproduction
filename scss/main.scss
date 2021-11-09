@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap");
+@import "./custom.scss";
+@import "./navbar";
+@import "./hero";
+@import "./config.scss";
+.flex-row-container {
+  display: flex;
+  gap: 1rem;
+}
+.video-container {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.video-container iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+.pricing-section {
+  .card {
+    &:hover > .card-header {
+      border: solid 1px #a30b2e;
+      transition: all 0.4s;
+      background: #a30b2e;
+    }
+  }
+}
+
+.call-to-action {
+  background: url("https://images.unsplash.com/photo-1470019693664-1d202d2c0907?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2069&q=80");
+  background-size: cover;
+  background-position: top center;
+}
+// @media (max-width: 767px)
+// @media (max-width: 991px) {
+// @media (min-width: 576px) {
+// @media (max-width: 480px) {
+// @media (max-width: 1199px) {
