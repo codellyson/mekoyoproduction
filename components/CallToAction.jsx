@@ -9,13 +9,12 @@ function CallToAction() {
         <div className="row justify-content-center align-items-center bg-main-dark ">
           <div className="col-10 border-primary border p-3 ">
             <div className="card bg-transparent border-0  rounded-0 ">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro
-              consectetur recusandae itaque doloribus accusantium atque dolor,
-              distinctio veritatis non, possimus id. Eos consequatur facere
-              repudiandae harum quod sed tempore minus hic? Adipisci beatae
-              atque cum fugiat corporis aspernatur eos impedit eveniet quo omnis
-              labore necessitatibus hic commodi nemo nobis repellendus, nostrum
-              facilis quae sequi cumque.
+              Mr Mekoyo has earned a positive reputation because of the truly
+              exceptional service provided to each of our client. We are ready
+              to work with you to take your music a step further into the
+              advanced music world by giving you the best output. We understand
+              that your needs comes first, and we’re ready to adapt our services
+              to ensure your success.
             </div>
             <Link href="#">
               <a className="btn btn-primary btn-lg rounded-0 border-0 mx-auto py-3 my-3">

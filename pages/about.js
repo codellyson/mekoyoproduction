@@ -2,6 +2,7 @@ import React from "react";
 import Head from "next/head";
 import Hero from "../components/Hero/Hero";
 import Subscribe from "../components/Subscribe/Subscribe";
+import Featurettes from "../components/Featurettes";
 const about = () => {
   return (
     <>
@@ -25,106 +26,63 @@ const about = () => {
           </div>
           <div className="col-12">
             <p>
-              My name is Odunayo Yusuf, founder of O.Y Productions, i’m a
-              prolific Music Producer, Sound Engineer and a Music Instructor. My
-              productions cross a wide range of Afrobeat music styles,
-              Dancehall, Afroswing, Afro-house, Afropop, Zouk, Afrotrap, Zouk
-              and Reggae. With a constantly evolving sound, i enjoy
-              experimenting with sounds which cross over into various musical
-              genres. I’m also versatile music composer, song-writer and an
-              aspiring speaker. I’m currently tutoring a diverse set of people
-              through my music empowerment program. Having worked with major
-              A-list artistes such as Olamide, Awilo logonba, Kida Kudz,
-              Patoranking, Ice Prince, Stonebwoy, Wande Coal, Iyanya, amongst
-              others and with a wealth of over 15 years’ experience learning and
-              perfecting his craft. I’ve has progressively maintained the
-              ability to connect to people, hence why they continue to expand
-              and become more diverse as his career continues to grow. I’ve
-              gained the support of industry tastemakers around the globe, and
-              my production works have climbed the top charts numerous times.
-              Having made my mark in the Afrobeat music world.
+              Nnaemeka Ugochukwu Onusiriuka also known as Mr MEKOYO is a
+              Versatile Nigerian musician, producer, songwriter and a
+              Multi-Talented Intrumentalist. He worked as an assistant Engineer
+              in C Mountain Studio Abuja, he also worked as a Chief Engineer in
+              Keruzzo Studio Enugu.He set up his own recording facility in 2007.
+              He is CEO/ Head of Productions of D Mekoyo Entertainment. Mr
+              Mekoyo is presently heading the sound department of Dunamis
+              international churches.
             </p>
+            <p>
+              He was responsible for Styl-plus highly acclaimed Single and has
+              been mentioned on many artists' sleeve credits as producer and
+              writer. Mr Mekoyo Studied Mechanical Engineering in University of
+              Nigeria Nsukka, but later branched into music full-time to fulfill
+              a lifelong desire. His style comprises a wide spectrum of genres
+              based on his careful understudy of such classical,hip-pop and
+              traditional music He has won awards as a Music Producer as well as
+              his other fields of interest. Mr Mekoyo released his much awaited
+              first official single titled ‘Time to Shine’’ in 2002. The Song
+              immediately became the NO.1 on most radio charts Nigeria. Today,
+              he is known for producing some of the finest artistes in Nigeria.
+              Noteworthy among these artistes is the Nigerian soul-singing
+              sensation,STYL-PLUS, VECTOR, KEFEE, PAUL PLAY, TONY ONE WEEK,
+              WEIRD MC, ELIJAH OYELADE, SOLOMON LANGE, PROSPER OCHIMANA, ASU
+              EKIYE, and to mention a few. HE co-wrote the hit song ‘’KOKOROKO’’
+              by KEFEE.
+            </p>
+            <p>
+              He is also responsible for the productions of Dr Pastor Paul
+              enenche and Dr pastor Becky enenche of Dunamis. He is currently
+              the head of sound in Dunamis international churches. Mr Mekoyo has
+              won multiple awards for his creative and entrepreneurial
+              contributions to the Nigerian music industry. Mr Mekoyo shot to
+              limelight when he produced the popular hit single ‘’OLUFUNMI’’ by
+              STYL-PLUS.
+            </p>
+            <p> Mr Mekoyo is happily married with four lovely children.</p>
           </div>
         </div>
 
         <div className="row my-5">
           <div className="col-12">
-            <h1 className="display-3 fw-bold"> Why i'm are here</h1>
+            <h1 className="display-3 fw-bold"> Why I'm are here</h1>
             <hr />
           </div>
           <div className="col-12">
             <p>
-              Creativity lies in the mind of the one who is willing to solve
-              problems with different strategies. OY Production, an amazing
-              brand in the industry, has helped people particularly artists in
-              achieving their goals. In short, his impact has and is still
-              turning lives around for good. It is also known that no matter how
-              good or successful a brand is, there is still always room for
-              improvement.
+              Mr Mekoyo has been known for an unparalleled commitment to
+              customer satisfaction. It’s this standard of excellence that has
+              provided the impetus for us to grow into the business we are
+              today. For more information about the products and services we
+              provide, reach out today.
             </p>
           </div>
         </div>
 
-        {/* Featurettes  */}
-        <div className="row featurette my-5 py-5 align-items-center ">
-          <div className="col-md-7">
-            <h2 className="featurette-heading">
-              First featurette heading.{" "}
-              <span className="text-sharp-gold">It’ll blow your mind.</span>
-            </h2>
-            <p className="lead">
-              Some great placeholder content for the first featurette here.
-              Imagine some exciting prose here.
-            </p>
-          </div>
-          <div className="col-md-5">
-            <img
-              src="https://images.unsplash.com/photo-1463453091185-61582044d556?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8YmxhY2slMjBtYW4lMjBwb3RyYWl0fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60"
-              className="img-fluid"
-            />
-          </div>
-        </div>
-
-        <div className="row featurette my-5 py-5 align-items-center">
-          <div className="col-md-7 order-md-2">
-            <h2 className="featurette-heading">
-              Oh yeah, it’s that good.{" "}
-              <span className="text-sharp-gold">See for yourself.</span>
-            </h2>
-            <p className="lead">
-              Another featurette? Of course. More placeholder content here to
-              give you an idea of how this layout would work with some actual
-              real-world content in place.
-            </p>
-          </div>
-          <div className="col-md-5 order-md-1">
-            <img
-              src="https://images.unsplash.com/photo-1528109688329-6a043167789d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGJsYWNrJTIwbWFuJTIwcG90cmFpdHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60"
-              className="img-fluid"
-            />
-          </div>
-        </div>
-
-        <div className="row featurette my-4 align-items-center">
-          <div className="col-md-7">
-            <h2 className="featurette-heading">
-              And lastly, this one.{" "}
-              <span className="text-sharp-gold">Checkmate.</span>
-            </h2>
-            <p className="lead">
-              And yes, this is the last block of representative placeholder
-              content. Again, not really intended to be actually read, simply
-              here to give you a better view of what this would look like with
-              some actual content. Your content.
-            </p>
-          </div>
-          <div className="col-md-5">
-            <img
-              src="https://images.unsplash.com/photo-1509305717900-84f40e786d82?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YmxhY2slMjBtYW4lMjBwb3RyYWl0fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60"
-              className="img-fluid"
-            />
-          </div>
-        </div>
+        <Featurettes />
         <Subscribe />
       </section>
     </>

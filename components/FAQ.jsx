@@ -77,7 +77,7 @@ function FAQ() {
               <h4 className="card-title">Can I upgrade my license (later)?</h4>
               <p className="card-text">
                 Yes. You can upgrade your license. Kindly mail me
-                <del> info@oyproductions.com</del>
+                mekoyoofficial@gmail.com and I will get back to you.
               </p>
             </div>
           </div>

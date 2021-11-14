@@ -29,20 +29,22 @@ export default function Home(props) {
             width="72"
             height="57"
           />
-          <h1 className="display-5 fw-bold">Centered hero</h1>
+          <h1 className="display-5 fw-bold">Mr. Mekoyo</h1>
           <div className="col-lg-6 mx-auto">
             <p className="lead mb-4">
-              Quickly design and customize responsive mobile-first sites with
-              Bootstrap, the world’s most popular front-end open source toolkit,
-              featuring Sass variables and mixins, responsive grid system,
-              extensive prebuilt components, and powerful JavaScript plugins.
+              Since the early stages of his life, Mr Mekoyo has been proud to be
+              in the industry and has honed the craft of Music Production, Mix
+              and Mastering and is an exceptional Sound Engineer. We’re
+              committed to not only providing quality services, but going the
+              whole mile to ensure our clients are completely satisfied. We
+              welcome you to look through our site to see all we have to offer.
             </p>
             <div className="d-grid gap-2 d-sm-flex justify-content-sm-center">
               <button
                 type="button"
                 className="btn btn-primary rounded-0 py-3 text-white  btn-lg px-4"
               >
-                Get Started
+                Explore Beats
               </button>
             </div>
           </div>
@@ -51,12 +53,15 @@ export default function Home(props) {
       <main className="container">
         <section className="py-5  text-center container">
           <div className="row py-lg-5">
-            <div className="col-lg-6 col-md-8 mx-auto">
-              <h1 className="fw-light text-sharp-gold">Album example</h1>
+            <div className="col-lg-8 col-md-8 mx-auto">
+              <h1 className="fw-light text-sharp-gold">What I do?</h1>
               <p className="lead text-white">
-                Something short and leading about the collection below—its
-                contents, the creator, etc. Make it short and sweet, but not too
-                short so folks don’t simply skip over it entirely.
+                Mr Mekoyo has earned a positive reputation because of the truly
+                exceptional service provided to each of our client. We are ready
+                to work with you to take your music a step further into the
+                advanced music world by giving you the best output. We
+                understand that your needs comes first, and we’re ready to adapt
+                our services to ensure your success.
               </p>
             </div>
           </div>

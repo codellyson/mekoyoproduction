@@ -6,14 +6,15 @@ const Subscribe = () => {
       //   display: "flex",
       // }}
     >
-      <article>
+      <div>
         <hgroup>
           <h2 className="text-sharp-gold">Contact Me</h2>
-          <h4>
+          <h5>
             {" "}
-            Please read the FAQs before emailing me. Your question(s) may be
-            answered there. I usually get back within 24 hours.
-          </h4>
+            Mr Mekoyo is committed to exceeding your needs. Questions, comments
+            or special requests? We’d love to hear from you, so don’t hesitate
+            to reach out today
+          </h5>
         </hgroup>
 
         <div
@@ -130,7 +131,7 @@ const Subscribe = () => {
             Submit
           </button>
         </form>
-      </article>
+      </div>
     </div>
   );
 };

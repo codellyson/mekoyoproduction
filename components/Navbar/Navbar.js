@@ -32,7 +32,7 @@ const Navbar = ({ toggleDarkMode }) => {
     >
       <div className="container">
         <a className="navbar-brand text-sharp-gold" href="#">
-          Mekoyo Production
+          Mr. Mekoyo
         </a>
         <span
           className="navbar-toggler"

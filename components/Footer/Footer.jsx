@@ -5,31 +5,19 @@ const Footer = () => {
       <footer className="pt-5 container mt-auto">
         <div className="row row-cols-1 row-cols-md-2">
           <div className="col">
-            <h5 className="text-sharp-gold">Section</h5>
+            <h5 className="text-sharp-gold">Contacts</h5>
             <ul className="nav flex-column">
               <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-white">
-                  Home
+                <a
+                  href="mailto:mekoyoofficial@gmail.com"
+                  className="nav-link p-0 text-white"
+                >
+                  mekoyoofficial@gmail.com
                 </a>
               </li>
               <li className="nav-item mb-2">
                 <a href="#" className="nav-link p-0 text-white">
-                  Features
-                </a>
-              </li>
-              <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-white">
-                  Pricing
-                </a>
-              </li>
-              <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-white">
-                  FAQs
-                </a>
-              </li>
-              <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-white">
-                  About
+                  08034514228
                 </a>
               </li>
             </ul>
@@ -61,7 +49,7 @@ const Footer = () => {
         </div>
 
         <div className="d-flex justify-content-between py-4 my-4 border-top">
-          <p>&copy; 2021 Company, Inc. All rights reserved.</p>
+          <p>&copy; 2021 Mr Mekoyo. All rights reserved.</p>
           <ul className="list-unstyled d-flex">
             <li className="ms-3">
               <a className="link-dark text-sharp-gold" href="#">
@@ -69,7 +57,10 @@ const Footer = () => {
               </a>
             </li>
             <li className="ms-3">
-              <a className="link-dark text-sharp-gold" href="#">
+              <a
+                className="link-dark text-sharp-gold"
+                href="https://www.instagram.com/mrmekoyo"
+              >
                 <FaInstagram />
               </a>
             </li>
