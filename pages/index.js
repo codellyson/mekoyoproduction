@@ -30,7 +30,7 @@ export default function Home(props) {
             height="57"
           />
           <h1 className="display-5 fw-bold">Mr. Mekoyo</h1>
-          <div className="col-lg-6 mx-auto">
+          <div className="col-lg-8 mx-auto">
             <p className="lead mb-4">
               Since the early stages of his life, Mr Mekoyo has been proud to be
               in the industry and has honed the craft of Music Production, Mix
@@ -75,7 +75,9 @@ export default function Home(props) {
               data-aos-anchor-placement="top-center"
             >
               {videoIDs &&
-                videoIDs.map((data) => <VideoCard embedId={data.id} />)}
+                videoIDs.map((data) => (
+                  <VideoCard embedId={data.id} key={data} />
+                ))}
             </div>
           </div>
         </div>

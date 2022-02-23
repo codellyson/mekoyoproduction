@@ -1,5 +1,5 @@
 import React from "react";
-
+import Image from "next/image";
 function Featurettes() {
   return (
     <div>
@@ -24,9 +24,10 @@ function Featurettes() {
           </p>
         </div>
         <div className="col-md-5">
-          <img
-            src="https://images.unsplash.com/photo-1463453091185-61582044d556?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8YmxhY2slMjBtYW4lMjBwb3RyYWl0fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60"
+          <Image
+            src={require("../images/six.jpg")}
             className="img-fluid"
+            alt="jingle"
           />
         </div>
       </div>
@@ -48,9 +49,10 @@ function Featurettes() {
           </p>
         </div>
         <div className="col-md-5 order-md-1">
-          <img
-            src="https://images.unsplash.com/photo-1528109688329-6a043167789d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGJsYWNrJTIwbWFuJTIwcG90cmFpdHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60"
+          <Image
+            src={require("../images/seven.jpg")}
             className="img-fluid"
+            alt="Liverecording"
           />
         </div>
       </div>
@@ -71,10 +73,7 @@ function Featurettes() {
           </p>
         </div>
         <div className="col-md-5">
-          <img
-            src="https://images.unsplash.com/photo-1509305717900-84f40e786d82?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YmxhY2slMjBtYW4lMjBwb3RyYWl0fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60"
-            className="img-fluid"
-          />
+          <Image src={require("../images/three.jpg")} alt="Mekoyo Production" />
         </div>
       </div>
 
@@ -93,16 +92,13 @@ function Featurettes() {
             our Mix and Mastering service for our clients, we ensure all final
             output are detailed, seamless, handled in a timely manner. All
             modern day International industry Mixing & Mastering standards are
-            met while putting into consideration the client's needs and
+            met while putting into consideration the client&apos;s needs and
             satisfaction. Whenever you work with Mr Mekoyo, you can trust that
             you’re in great experienced and professional hands
           </p>
         </div>
         <div className="col-md-5 order-md-1">
-          <img
-            src="https://images.unsplash.com/photo-1528109688329-6a043167789d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGJsYWNrJTIwbWFuJTIwcG90cmFpdHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60"
-            className="img-fluid"
-          />
+          <Image src={require("../images/four.jpg")} className="img-fluid" />
         </div>
       </div>
 
@@ -125,9 +121,10 @@ function Featurettes() {
           </p>
         </div>
         <div className="col-md-5">
-          <img
-            src="https://images.unsplash.com/photo-1509305717900-84f40e786d82?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YmxhY2slMjBtYW4lMjBwb3RyYWl0fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60"
+          <Image
+            src={require("../images/five.jpg")}
             className="img-fluid"
+            alt="soundtrack object"
           />
         </div>
       </div>
