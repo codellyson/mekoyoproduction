@@ -37,21 +37,21 @@ const about = () => {
             </p>
             <p>
               He was responsible for Styl-plus highly acclaimed Single and has
-              been mentioned on many artists' sleeve credits as producer and
-              writer. Mr Mekoyo Studied Mechanical Engineering in University of
-              Nigeria Nsukka, but later branched into music full-time to fulfill
-              a lifelong desire. His style comprises a wide spectrum of genres
-              based on his careful understudy of such classical,hip-pop and
-              traditional music He has won awards as a Music Producer as well as
-              his other fields of interest. Mr Mekoyo released his much awaited
-              first official single titled ‘Time to Shine’’ in 2002. The Song
-              immediately became the NO.1 on most radio charts Nigeria. Today,
-              he is known for producing some of the finest artistes in Nigeria.
-              Noteworthy among these artistes is the Nigerian soul-singing
-              sensation,STYL-PLUS, VECTOR, KEFEE, PAUL PLAY, TONY ONE WEEK,
-              WEIRD MC, ELIJAH OYELADE, SOLOMON LANGE, PROSPER OCHIMANA, ASU
-              EKIYE, and to mention a few. HE co-wrote the hit song ‘’KOKOROKO’’
-              by KEFEE.
+              been mentioned on many artists&apos; sleeve credits as producer
+              and writer. Mr Mekoyo Studied Mechanical Engineering in University
+              of Nigeria Nsukka, but later branched into music full-time to
+              fulfill a lifelong desire. His style comprises a wide spectrum of
+              genres based on his careful understudy of such classical,hip-pop
+              and traditional music He has won awards as a Music Producer as
+              well as his other fields of interest. Mr Mekoyo released his much
+              awaited first official single titled ‘Time to Shine’’ in 2002. The
+              Song immediately became the NO.1 on most radio charts Nigeria.
+              Today, he is known for producing some of the finest artistes in
+              Nigeria. Noteworthy among these artistes is the Nigerian
+              soul-singing sensation,STYL-PLUS, VECTOR, KEFEE, PAUL PLAY, TONY
+              ONE WEEK, WEIRD MC, ELIJAH OYELADE, SOLOMON LANGE, PROSPER
+              OCHIMANA, ASU EKIYE, and to mention a few. HE co-wrote the hit
+              song ‘’KOKOROKO’’ by KEFEE.
             </p>
             <p>
               He is also responsible for the productions of Dr Pastor Paul
@@ -68,7 +68,7 @@ const about = () => {
 
         <div className="row my-5">
           <div className="col-12">
-            <h1 className="display-3 fw-bold"> Why I'm are here</h1>
+            <h1 className="display-3 fw-bold"> Why I&apos;m are here</h1>
             <hr />
           </div>
           <div className="col-12">

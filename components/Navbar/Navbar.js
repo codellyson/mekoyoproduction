@@ -81,14 +81,14 @@ const Navbar = ({ toggleDarkMode }) => {
                 </a>
               </Link>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link href="/presets">
                 <a className="text-white nav-link" onClick={closeNav}>
                   {" "}
                   Sample & Presets{" "}
                 </a>
               </Link>
-            </li>
+            </li> */}
             <li className="nav-item">
               <Link href="/mixing">
                 <a className="text-white nav-link" onClick={closeNav}>
@@ -98,13 +98,20 @@ const Navbar = ({ toggleDarkMode }) => {
               </Link>
             </li>
             <li className="nav-item">
+              <Link href="/artistes">
+                <a className="text-white nav-link" onClick={closeNav}>
+                  Our Artistes
+                </a>
+              </Link>
+            </li>
+            {/* <li className="nav-item">
               <Link href="/tutorials">
                 <a className="text-white nav-link" onClick={closeNav}>
                   {" "}
                   Tutorials{" "}
                 </a>
               </Link>
-            </li>
+            </li> */}
             <li className="nav-item">
               <Link href="/contact">
                 <a className="text-white nav-link" onClick={closeNav}>

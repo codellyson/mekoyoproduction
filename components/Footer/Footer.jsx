@@ -1,8 +1,8 @@
 import { FaTwitter, FaInstagram, FaFacebook } from "react-icons/fa";
 const Footer = () => {
   return (
-    <div className="container-fluid">
-      <footer className="pt-5 container mt-auto">
+    <div className="container-fluid py-5 ">
+      <footer className="pt-5 container border-top border-primary mt-5">
         <div className="row row-cols-1 row-cols-md-2">
           <div className="col">
             <h5 className="text-sharp-gold">Contacts</h5>

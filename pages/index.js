@@ -6,6 +6,7 @@ import Featurettes from "../components/Featurettes";
 import Hero from "../components/Hero/Hero";
 import Subscribe from "../components/Subscribe/Subscribe";
 import ScrollAnimation from "react-animate-on-scroll";
+import Link from "next/link";
 export default function Home(props) {
   const videoIDs = [
     { id: "1kx0FfSexQ0" },
@@ -22,13 +23,6 @@ export default function Home(props) {
       </Head>
       <Hero>
         <div className="px-4 py-5 my-5 text-center">
-          <img
-            className="d-block mx-auto mb-4"
-            src="https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80"
-            alt=""
-            width="72"
-            height="57"
-          />
           <h1 className="display-5 fw-bold">Mr. Mekoyo</h1>
           <div className="col-lg-8 mx-auto">
             <p className="lead mb-4">
@@ -40,17 +34,16 @@ export default function Home(props) {
               welcome you to look through our site to see all we have to offer.
             </p>
             <div className="d-grid gap-2 d-sm-flex justify-content-sm-center">
-              <button
-                type="button"
-                className="btn btn-primary rounded-0 py-3 text-white  btn-lg px-4"
-              >
-                Explore Beats
-              </button>
+              <Link href={"#get-started"}>
+                <a className="btn btn-primary rounded-0 py-3 text-white  btn-lg px-4">
+                  Explore
+                </a>
+              </Link>
             </div>
           </div>
         </div>
       </Hero>
-      <main className="container">
+      <main className="container" id="get-started">
         <section className="py-5  text-center container">
           <div className="row py-lg-5">
             <div className="col-lg-8 col-md-8 mx-auto">
